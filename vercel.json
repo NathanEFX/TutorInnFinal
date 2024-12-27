@@ -22,6 +22,9 @@
             "dest": "/api/index.php"
         }
     ],
+    "hooks": {
+        "build": "php artisan config:clear && php artisan route:clear && php artisan view:clear && php artisan cache:clear"
+      }
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
