@@ -41,7 +41,7 @@
 
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
-        "SESSION_DRIVER": "cookie",
+        "SESSION_DRIVER": "database",
 
         "DB_CONNECTION":"mysql",
         "DB_HOST":"0e5l0.h.filess.io",
